@@ -1,0 +1,216 @@
+#app div.content-htop,
+#app div.header-bottom {
+  width: 83.3%;
+  margin: 0 auto;
+}
+
+#app div.header-top {
+  height: 30px;
+  background-color: #0282f9;
+}
+
+#app div.header-top img {
+  color: #ffff;
+}
+
+#app div.header-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+#app div.header-bottom img {
+  width: 80px;
+}
+
+#app div.header-bottom ul {
+  list-style: none;
+}
+
+#app div.header-bottom ul li {
+  display: inline-block;
+  padding-right: 30px;
+}
+
+#app div.header-bottom div.searchbar {
+  position: relative;
+  border-bottom: 1px solid #0282f9;
+}
+
+#app div.header-bottom div.searchbar input {
+  border: none;
+  outline: none;
+}
+
+#app div.header-bottom div.searchbar i {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#app #jumbotron {
+  height: 450px;
+  background-image: url("/storage/images/jumbotron.jpg");
+}
+
+#app footer .footer-top {
+  height: 450px;
+  background-image: url("/storage/images/dc-logo-bg.png"), url("/storage/images/footer-bg.jpg");
+  background-position: right, center;
+  background-repeat: no-repeat;
+  background-size: auto, cover;
+}
+
+#app footer .footer-top .content-ftop {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#app footer .footer-top .content-ftop .list {
+  width: 83.3%;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+#app footer .footer-top .content-ftop .list div[class*=list-] {
+  margin-right: 50px;
+}
+
+#app footer .footer-top .content-ftop .list div[class*=list-] ul {
+  list-style: none;
+}
+
+#app footer .footer-top .content-ftop .list div[class*=list-] ul li {
+  margin-bottom: 8px;
+}
+
+#app footer .footer-top .content-ftop .list div[class*=list-] ul li h2 {
+  color: #ffff;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#app footer .footer-top .content-ftop .list div[class*=list-] ul li a {
+  color: #8e8e8a;
+  text-decoration: none;
+}
+
+#app footer .footer-top .content-ftop .content-under-list {
+  width: 83.3%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+#app footer .footer-top .content-ftop .content-under-list p {
+  color: #8e8e8a;
+}
+
+#app footer .footer-top .content-ftop .content-under-list p span {
+  color: #0282f9;
+}
+
+#app footer .footer-top .content-ftop .content-under-list a {
+  text-decoration: none;
+  color: #0282f9;
+}
+
+#app main {
+  background-color: #1c1c1c;
+}
+
+#app main .section-one {
+  width: 83.3%;
+  margin: 0 auto;
+}
+
+#app main .section-one ul {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#app main .section-one ul li {
+  padding: 50px 0;
+}
+
+#app main .section-one ul li div.box {
+  width: 250px;
+}
+
+#app main .section-one ul li div.box div.box-img {
+  height: 250px;
+  width: 250px;
+}
+
+#app main .section-one ul li div.box div.box-img img {
+  height: 100%;
+  width: 100%;
+}
+
+#app main .section-one ul li div.box h3 {
+  color: #ffff;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+#app main .section-one div.load-button {
+  text-align: center;
+}
+
+#app main .section-one div.load-button button {
+  padding: 12px 40px;
+  background-color: #0282f9;
+  color: #ffff;
+  border: none;
+}
+
+#app main .section-two {
+  margin-top: 20px;
+  background-color: #0282f9;
+}
+
+#app main .section-two ul {
+  width: 83.3%;
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+#app main .section-two ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#app main .section-two ul li img {
+  height: 60px;
+  padding-right: 10px;
+}
+
+#app main .section-two ul li span {
+  color: #ffff;
+  text-transform: uppercase;
+}
+
+#app main .section-two ul li #img-svg {
+  height: 45px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+

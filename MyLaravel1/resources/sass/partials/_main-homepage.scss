@@ -1,0 +1,80 @@
+#app{
+
+    main{
+        background-color: #1c1c1c;
+
+        .section-one{
+            @include centring;
+
+            ul{
+                list-style: none;
+                @include display-flex-row(flex-start, space-between);
+                flex-wrap: wrap;
+
+                li{
+                    padding: 50px 0;
+
+                    div.box{
+                        width: 250px;
+                        
+                        div.box-img{
+                            height: 250px;
+                            width: 250px;
+
+                            img{
+                            height: 100%;
+                            width: 100%;
+                            }
+                        }
+                        
+                        h3{
+                            color: $color2;
+                            text-transform: uppercase;
+                            margin-top: 20px;
+                        }
+                    }
+                }
+            }
+            div.load-button{
+                text-align: center;
+
+                button{
+                    padding: 12px 40px;
+                    background-color: $color1;
+                    color: $color2;
+                    border: none;
+                }
+            }
+        }
+        .section-two{
+            margin-top: 20px;
+            background-color: $color1;
+
+            ul{
+                @include centring;
+                list-style: none;
+                @include display-flex-row(center, space-between);
+                padding: 50px 0;
+
+                li{
+                    @include display-flex-row(center, center);
+
+                    img{
+                        height: 60px;
+                        padding-right: 10px;
+                    }
+                    span{
+                        color: $color2;
+                        text-transform: uppercase;
+                    }
+                    #img-svg{
+                        height: 45px;
+                    }
+                }
+            }
+        }
+
+        
+        
+    }
+}

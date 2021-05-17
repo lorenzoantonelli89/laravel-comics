@@ -1,0 +1,23 @@
+
+$color1: #0282f9;
+$color2: #ffff;
+$color3: #8e8e8a;
+
+@mixin centring {
+    width: 83.3%;
+    margin: 0 auto;
+}
+
+@mixin display-flex-row($var1, $var2) {
+    display: flex;
+    align-items: $var1;
+    justify-content: $var2;
+}
+
+@mixin display-flex-column($var1, $var2) {
+    display: flex;
+    flex-direction: column;
+    align-items: $var1;
+    justify-content: $var2;
+}
+
