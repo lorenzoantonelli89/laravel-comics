@@ -2,6 +2,11 @@
 @section('content')
     <main>
         <section class="section-one">
+            <div class="current">
+                <h2>
+                    current series
+                </h2>
+            </div>
             <ul>
                 @foreach ($data as $item)
                     <li>

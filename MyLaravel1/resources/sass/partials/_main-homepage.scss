@@ -5,7 +5,23 @@
 
         .section-one{
             @include centring;
+            position: relative;
 
+            div.current{
+                height: 50px;
+                width: 250px;
+                background-color: $color1;
+                text-align: center;
+                line-height: 50px;
+                position: absolute;
+                top: -25px;
+                left: 0;
+
+                h2{
+                    color: $color2;
+                    text-transform: uppercase;
+                }
+            }
             ul{
                 list-style: none;
                 @include display-flex-row(flex-start, space-between);

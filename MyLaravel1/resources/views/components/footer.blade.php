@@ -10,37 +10,37 @@
                             </h2>
                         </li>
                         <li>
-                            <a>
+                            <a href="">
                                 Characters
                             </a>
                         </li>
                         <li>
-                            <a>
+                            <a href="">
                                 Comics
                             </a>
                         </li>
                         <li>
-                            <a>
+                            <a href="">
                                 Movies
                             </a>
                         </li>
                         <li>
-                            <a>
+                            <a href="">
                                 TV
                             </a>
                         </li>
                         <li>
-                            <a>
+                            <a href="">
                                 Games
                             </a>
                         </li>
                         <li>
-                            <a>
+                            <a href="">
                                 Videos
                             </a>
                         </li>
                         <li>
-                            <a>
+                            <a href="">
                                 News
                             </a>
                         </li>
@@ -52,12 +52,12 @@
                             </h2>
                         </li>
                         <li>
-                            <a>
+                            <a href="">
                                 Shop DC
                             </a>
                         </li>
                         <li>
-                            <a>
+                            <a href="">
                                 Shop DC Collectibles
                             </a>
                         </li>
@@ -71,57 +71,57 @@
                             </h2>
                         </li>
                         <li>
-                            <a>
+                            <a href="">
                                 Term Of Use
                             </a>                 
                         </li>
                         <li>
-                            <a>
+                            <a href="">
                                 Privacy policy(New)
                             </a>
                         </li>
                         <li>
-                            <a>
+                            <a href="">
                                 Ad Choices
                             </a>                
                         </li>
                         <li>
-                            <a>
+                            <a href="">
                                 Advertising
                             </a>                 
                         </li>
                         <li>
-                            <a>
+                            <a href="">
                                 Jobs
                             </a>          
                         </li>
                         <li>
-                            <a>
+                            <a href="">
                                 Sbscriptions
                             </a>                  
                         </li>
                         <li>
-                            <a>
+                            <a href="">
                                 Talent Worshops
                             </a>                     
                         </li>
                         <li>
-                            <a>
+                            <a href="">
                                 CPSC Certificates
                             </a>                       
                         </li>
                         <li>
-                            <a>
+                            <a href="">
                                 Ratings
                             </a>             
                         </li>
                         <li>
-                            <a>
+                            <a href="">
                                 Shop Help
                             </a>               
                         </li>
                         <li>
-                            <a>
+                            <a href="">
                                 Contact Us
                             </a>                
                         </li>
@@ -135,27 +135,27 @@
                             </h2>
                         </li>
                         <li>
-                            <a>
+                            <a href="">
                                 DC
                             </a>
                         </li>
                         <li>
-                            <a>
+                            <a href="">
                                 MAD Magazine
                             </a>
                         </li>
                         <li>
-                            <a>
+                            <a href="">
                                 DC Kids
                             </a>
                         </li>
                         <li>
-                            <a>
+                            <a href="">
                                 DC Universe
                             </a>
                         </li>
                         <li>
-                            <a>
+                            <a href="">
                                 DC Power Visa
                             </a>
                         </li>
@@ -173,32 +173,44 @@
         </div>
     </div>
     <div class="footer-bottom">
-        <a href="">
-            sign-up now!
-        </a>
-        <div class="social-links">
-            <ul>
-                <li>
-                    <h2>
-                        follow us
-                    </h2>
-                </li>
-                <li>
-                    <img src="{{ asset('/storage/images/footer-facebook.png') }}" alt="">
-                </li>
-                <li>
-                    <img src="{{ asset('/storage/images/footer-twitter.png') }}" alt="">
-                </li>
-                <li>
-                    <img src="{{ asset('/storage/images/footer-youtube.png') }}" alt="">
-                </li>
-                <li>
-                    <img src="{{ asset('/storage/images/footer-pinterest.png') }}" alt="">
-                </li>
-                <li>
-                    <img src="{{ asset('/storage/images/footer-periscope.png') }}" alt="">
-                </li>
-            </ul>
+        <div class="content-fbottom">
+            <a id="sign-up" href="">
+                sign-up now!
+            </a>
+            <div class="social-links">
+                <ul>
+                    <li>
+                        <h2>
+                            follow us
+                        </h2>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="{{ asset('/storage/images/footer-facebook.png') }}" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="{{ asset('/storage/images/footer-twitter.png') }}" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="{{ asset('/storage/images/footer-youtube.png') }}" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="{{ asset('/storage/images/footer-pinterest.png') }}" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="{{ asset('/storage/images/footer-periscope.png') }}" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </footer>

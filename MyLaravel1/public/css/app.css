@@ -57,7 +57,7 @@
 #app footer .footer-top {
   height: 450px;
   background-image: url("/storage/images/dc-logo-bg.png"), url("/storage/images/footer-bg.jpg");
-  background-position: right, center;
+  background-position: right 130px center, center;
   background-repeat: no-repeat;
   background-size: auto, cover;
 }
@@ -121,6 +121,44 @@
   color: #0282f9;
 }
 
+#app footer .footer-bottom {
+  background-color: #303030;
+  height: 120px;
+}
+
+#app footer .footer-bottom .content-fbottom {
+  height: 100%;
+  width: 83.3%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#app footer .footer-bottom .content-fbottom a#sign-up {
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 2px solid #0282f9;
+  padding: 12px;
+  color: #ffff;
+}
+
+#app footer .footer-bottom .content-fbottom div.social-links ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#app footer .footer-bottom .content-fbottom div.social-links ul li {
+  padding-right: 10px;
+}
+
+#app footer .footer-bottom .content-fbottom div.social-links ul li h2 {
+  text-transform: uppercase;
+  color: #0282f9;
+}
+
 #app main {
   background-color: #1c1c1c;
 }
@@ -128,6 +166,23 @@
 #app main .section-one {
   width: 83.3%;
   margin: 0 auto;
+  position: relative;
+}
+
+#app main .section-one div.current {
+  height: 50px;
+  width: 250px;
+  background-color: #0282f9;
+  text-align: center;
+  line-height: 50px;
+  position: absolute;
+  top: -25px;
+  left: 0;
+}
+
+#app main .section-one div.current h2 {
+  color: #ffff;
+  text-transform: uppercase;
 }
 
 #app main .section-one ul {
@@ -212,5 +267,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Comic Neue", cursive;
 }
 
