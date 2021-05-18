@@ -14,9 +14,11 @@
                             <div class="box-img">
                                 <img src="{{$item['thumb']}}" alt="">
                             </div>
-                            <h3>
-                                {{$item['series']}}
-                            </h3>
+                            <a href=" {{ route('elem', $loop->index )}} ">
+                                <h3>
+                                    {{$item['series']}}
+                                </h3>
+                            </a>
                         </div>
                     </li>
                 @endforeach

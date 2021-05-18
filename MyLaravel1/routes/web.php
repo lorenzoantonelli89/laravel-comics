@@ -17,4 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('home', 'JumboControllers@home');
+Route::get('home', 'JumboControllers@home') -> name('home');
+
+Route::get('elem/{index}', 'JumboControllers@elem') -> name('elem');

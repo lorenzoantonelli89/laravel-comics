@@ -36,18 +36,23 @@
                         div.box-img{
                             height: 250px;
                             width: 250px;
+                            overflow: hidden;
 
                             img{
-                            height: 100%;
                             width: 100%;
                             }
                         }
                         
-                        h3{
-                            color: $color2;
-                            text-transform: uppercase;
-                            margin-top: 20px;
+                        a{
+                            text-decoration: none;
+                            
+                            h3{
+                                color: $color2;
+                                text-transform: uppercase;
+                                margin-top: 20px;
+                            }
                         }
+                        
                     }
                 }
             }

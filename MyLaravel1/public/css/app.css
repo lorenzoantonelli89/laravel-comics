@@ -204,14 +204,18 @@
 #app main .section-one ul li div.box div.box-img {
   height: 250px;
   width: 250px;
+  overflow: hidden;
 }
 
 #app main .section-one ul li div.box div.box-img img {
-  height: 100%;
   width: 100%;
 }
 
-#app main .section-one ul li div.box h3 {
+#app main .section-one ul li div.box a {
+  text-decoration: none;
+}
+
+#app main .section-one ul li div.box a h3 {
   color: #ffff;
   text-transform: uppercase;
   margin-top: 20px;
@@ -261,6 +265,266 @@
 
 #app main .section-two ul li #img-svg {
   height: 45px;
+}
+
+#app main {
+  position: relative;
+}
+
+#app main .blue {
+  color: #59c8ec;
+}
+
+#app main div.box-img-elem {
+  border: 1px solid #ffff;
+  position: absolute;
+  top: -220px;
+  left: 22.5%;
+}
+
+#app main div.box-img-elem span {
+  color: #ffff;
+  text-transform: uppercase;
+}
+
+#app main div.box-img-elem div.comic-book {
+  width: 55%;
+  background-color: #00a9d9;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#app main div.box-img-elem div.gallery {
+  width: 100%;
+  background-color: #00a9d9;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+
+#app main div.blue-lines {
+  height: 100px;
+  background-color: #0282f9;
+}
+
+#app main div.container-info-top {
+  background-color: #ffff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#app main div.container-info-top div.content {
+  width: 55%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#app main div.container-info-top div.content div.left {
+  width: 100%;
+}
+
+#app main div.container-info-top div.content div.left h2 {
+  text-transform: uppercase;
+  color: #003f5e;
+  margin-bottom: 20px;
+}
+
+#app main div.container-info-top div.content div.left div.price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 50px;
+  background-color: #55ba59;
+  border: 1px solid #49a04d;
+  padding: 0 30px;
+}
+
+#app main div.container-info-top div.content div.left div.price span {
+  color: #9bee83;
+}
+
+#app main div.container-info-top div.content div.left div.price span strong {
+  color: #ffff;
+}
+
+#app main div.container-info-top div.content div.left div.price div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50px;
+}
+
+#app main div.container-info-top div.content div.left div.price div span {
+  color: #9bee83;
+  text-transform: uppercase;
+  padding-right: 25px;
+}
+
+#app main div.container-info-top div.content div.left div.price div div.check {
+  height: 100%;
+  border-left: 1px solid #49a04d;
+  color: #ffff;
+}
+
+#app main div.container-info-top div.content div.left div.price div div.check span {
+  color: #ffff;
+  text-transform: none;
+  padding: 0 25px;
+}
+
+#app main div.container-info-top div.content div.left div.description {
+  margin-top: 20px;
+}
+
+#app main div.container-info-top div.content div.left div.description p {
+  line-height: 27px;
+}
+
+#app main div.container-info-top div.content div.right {
+  margin-left: 40px;
+}
+
+#app main div.container-info-top div.content div.right h4 {
+  text-transform: uppercase;
+  text-align: right;
+}
+
+#app main div.container-info-top div.content div.right img {
+  width: 250px;
+}
+
+#app main div.container-info-bottom {
+  background-color: #f6f6f6;
+  border-top: 2px solid #ebebeb;
+  padding-top: 30px;
+}
+
+#app main div.container-info-bottom .cl-blue {
+  color: #326786;
+}
+
+#app main div.container-info-bottom div.content {
+  width: 55%;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#app main div.container-info-bottom div.content div.left {
+  width: 48%;
+  margin-right: 4%;
+}
+
+#app main div.container-info-bottom div.content div.left h4 {
+  font-size: 25px;
+  color: #003f76;
+  margin-bottom: 30px;
+}
+
+#app main div.container-info-bottom div.content div.left .subtitle {
+  font-size: 16px;
+  flex-basis: 20%;
+}
+
+#app main div.container-info-bottom div.content div.left .container-link {
+  flex-basis: 80%;
+}
+
+#app main div.container-info-bottom div.content div.left .container-link a {
+  text-decoration: none;
+  font-size: 16px;
+}
+
+#app main div.container-info-bottom div.content div.left div[class*=-by] {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+#app main div.container-info-bottom div.content div.left div.art-by {
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+}
+
+#app main div.container-info-bottom div.content div.left div.written-by {
+  border-bottom: 1px solid #ebebeb;
+}
+
+#app main div.container-info-bottom div.content div.right {
+  width: 48%;
+}
+
+#app main div.container-info-bottom div.content div.right div[class*=-right] {
+  padding: 10px 0;
+}
+
+#app main div.container-info-bottom div.content div.right div[class*=-right] span {
+  padding-right: 60px;
+}
+
+#app main div.container-info-bottom div.content div.right h4 {
+  font-size: 25px;
+  color: #003f76;
+  margin-bottom: 30px;
+}
+
+#app main div.container-info-bottom div.content div.right div.series-right,
+#app main div.container-info-bottom div.content div.right div.sale-right {
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+}
+
+#app main div.container-info-bottom div.content div.right div.series-right a {
+  text-decoration: none;
+}
+
+#app main div.container-info-bottom div.container-main-info-bottom {
+  border-top: 1px solid #ebebeb;
+  margin-top: 100px;
+}
+
+#app main div.container-info-bottom div.container-main-info-bottom div.content-main-info-bottom {
+  width: 55%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#app main div.container-info-bottom div.container-main-info-bottom div.content-main-info-bottom div[class^=box-] {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: calc(100% / 4);
+  padding: 15px;
+}
+
+#app main div.container-info-bottom div.container-main-info-bottom div.content-main-info-bottom div[class^=box-] a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #a8aaac;
+  font-size: 14px;
+}
+
+#app main div.container-info-bottom div.container-main-info-bottom div.content-main-info-bottom div[class^=box-] img {
+  height: 40px;
+  padding-left: 60px;
+}
+
+#app main div.container-info-bottom div.container-main-info-bottom div.content-main-info-bottom div.box-one,
+#app main div.container-info-bottom div.container-main-info-bottom div.content-main-info-bottom div.box-four {
+  border-left: 1px solid #ebebeb;
+  border-right: 1px solid #ebebeb;
+}
+
+#app main div.container-info-bottom div.container-main-info-bottom div.content-main-info-bottom div.box-two {
+  border-right: 1px solid #ebebeb;
 }
 
 * {
