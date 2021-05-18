@@ -48,7 +48,7 @@
                     <h4>
                         advertisement
                     </h4>
-                    <img src="{{ asset('/storage/images/dc-logo.png') }}"alt="">
+                    <img src="{{ asset('/storage/images/adv-new.png') }}"alt="">
                 </div>
             </div>
         </div>
@@ -64,10 +64,16 @@
                         </span>
                         <div class="container-link">
                             @foreach ($elem['artists'] as $a)
-                                <a href="" class="blue">
-                                    {{$a}}
-                                </a>
-                                ,
+                                @if ($loop->last)
+                                    <a href="" class="blue">
+                                        {{$a}}
+                                    </a>
+                                @else 
+                                    <a href="" class="blue">
+                                        {{$a}}
+                                    </a>
+                                    ,
+                                @endif
                             @endforeach
                         </div>
                     </div>
@@ -77,10 +83,16 @@
                         </span>
                         <div class="container-link">
                             @foreach ($elem['writers'] as $a)
-                                <a href="" class="blue">
-                                    {{$a}}
-                                </a>
-                                ,
+                                @if ($loop->last)
+                                    <a href="" class="blue">
+                                        {{$a}}
+                                    </a>
+                                @else 
+                                    <a href="" class="blue">
+                                        {{$a}}
+                                    </a>
+                                    ,
+                                @endif
                             @endforeach
                         </div>
                     </div>

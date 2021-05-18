@@ -10,16 +10,16 @@
             <ul>
                 @foreach ($data as $item)
                     <li>
-                        <div class="box">
-                            <div class="box-img">
-                                <img src="{{$item['thumb']}}" alt="">
-                            </div>
-                            <a href=" {{ route('elem', $loop->index )}} ">
+                        <a href="{{ route('elem', $loop->index )}}">
+                            <div class="box">
+                                <div class="box-img">
+                                    <img src="{{$item['thumb']}}" alt="">
+                                </div>
                                 <h3>
                                     {{$item['series']}}
                                 </h3>
-                            </a>
-                        </div>
+                            </div>
+                        </a>
                     </li>
                 @endforeach
             </ul>

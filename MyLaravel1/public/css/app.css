@@ -1,49 +1,59 @@
-#app div.content-htop,
-#app div.header-bottom {
+#app header {
+  min-height: 175px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background-color: #ffff;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px;
+}
+
+#app header div.content-htop,
+#app header div.header-bottom {
   width: 83.3%;
   margin: 0 auto;
 }
 
-#app div.header-top {
+#app header div.header-top {
   height: 30px;
   background-color: #0282f9;
 }
 
-#app div.header-top img {
+#app header div.header-top img {
   color: #ffff;
 }
 
-#app div.header-bottom {
+#app header div.header-bottom {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 30px 0;
 }
 
-#app div.header-bottom img {
+#app header div.header-bottom img {
   width: 80px;
 }
 
-#app div.header-bottom ul {
+#app header div.header-bottom ul {
   list-style: none;
 }
 
-#app div.header-bottom ul li {
+#app header div.header-bottom ul li {
   display: inline-block;
   padding-right: 30px;
 }
 
-#app div.header-bottom div.searchbar {
+#app header div.header-bottom div.searchbar {
   position: relative;
   border-bottom: 1px solid #0282f9;
 }
 
-#app div.header-bottom div.searchbar input {
+#app header div.header-bottom div.searchbar input {
   border: none;
   outline: none;
 }
 
-#app div.header-bottom div.searchbar i {
+#app header div.header-bottom div.searchbar i {
   position: absolute;
   top: 0;
   right: 0;
@@ -51,6 +61,7 @@
 
 #app #jumbotron {
   height: 450px;
+  margin-top: 175px;
   background-image: url("/storage/images/jumbotron.jpg");
 }
 
@@ -197,25 +208,20 @@
   padding: 50px 0;
 }
 
-#app main .section-one ul li div.box {
+#app main .section-one ul li a div.box {
   width: 250px;
 }
 
-#app main .section-one ul li div.box div.box-img {
+#app main .section-one ul li a div.box div.box-img {
   height: 250px;
-  width: 250px;
   overflow: hidden;
 }
 
-#app main .section-one ul li div.box div.box-img img {
+#app main .section-one ul li a div.box div.box-img img {
   width: 100%;
 }
 
-#app main .section-one ul li div.box a {
-  text-decoration: none;
-}
-
-#app main .section-one ul li div.box a h3 {
+#app main .section-one ul li a div.box h3 {
   color: #ffff;
   text-transform: uppercase;
   margin-top: 20px;

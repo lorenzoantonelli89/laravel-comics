@@ -5,7 +5,9 @@
         </div>
     </div>
     <div class="header-bottom">
-        <img src="{{ asset('/storage/images/dc-logo.png') }}" alt="">
+        <a href="{{ route('home')}}">
+            <img src="{{ asset('/storage/images/dc-logo.png') }}" alt="">
+        </a>
         <ul>
             @foreach ($linksHeader as $link)
                 <li>
@@ -18,7 +20,8 @@
             <i class="fas fa-search"></i>
         </div>
     </div>
-    <div id="jumbotron">
-        
-    </div>
+    
 </header>
+<div id="jumbotron">
+        
+</div>

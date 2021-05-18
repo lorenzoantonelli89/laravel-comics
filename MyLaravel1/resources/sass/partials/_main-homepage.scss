@@ -29,30 +29,25 @@
 
                 li{
                     padding: 50px 0;
-
-                    div.box{
-                        width: 250px;
-                        
-                        div.box-img{
-                            height: 250px;
+                    
+                    a{
+                        div.box{
                             width: 250px;
-                            overflow: hidden;
-
-                            img{
-                            width: 100%;
-                            }
-                        }
-                        
-                        a{
-                            text-decoration: none;
                             
+                            div.box-img{
+                                height: 250px;
+                                overflow: hidden;
+
+                                img{
+                                width: 100%;
+                                }
+                            }
                             h3{
                                 color: $color2;
                                 text-transform: uppercase;
                                 margin-top: 20px;
                             }
                         }
-                        
                     }
                 }
             }
