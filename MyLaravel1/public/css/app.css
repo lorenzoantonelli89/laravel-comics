@@ -208,6 +208,10 @@
   padding: 50px 0;
 }
 
+#app main .section-one ul li a {
+  text-decoration: none;
+}
+
 #app main .section-one ul li a div.box {
   width: 250px;
 }

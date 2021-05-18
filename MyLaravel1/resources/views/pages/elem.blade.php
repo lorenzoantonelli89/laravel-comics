@@ -1,4 +1,7 @@
 @extends('layouts.main-layout')
+@section('title')
+    {{$elem['series']}}
+@endsection
 @section('content')
 
     <main>
